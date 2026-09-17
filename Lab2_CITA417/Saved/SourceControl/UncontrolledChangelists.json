@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/KX/URFTJ8NHSV332870H9Y9PC.uasset",
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/JO/I08SS0UAYIKEFUCAC73CMD.uasset",
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/1O/XX98495RH734GKSQXIQZ3N.uasset",
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/RZ/ATBSJQDZ9HWCGJIVZTI8YS.uasset",
+				"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LR/6DTHCSSWI8SMDG3R59JAJD.uasset"
+			]
+		}
+	]
+}
