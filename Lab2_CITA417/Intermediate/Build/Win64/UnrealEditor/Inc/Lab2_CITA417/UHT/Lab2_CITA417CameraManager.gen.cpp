@@ -104,14 +104,14 @@ ALab2_CITA417CameraManager::~ALab2_CITA417CameraManager() {}
 // ********** End Class ALab2_CITA417CameraManager *************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics
+struct Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ALab2_CITA417CameraManager, ALab2_CITA417CameraManager::StaticClass, TEXT("ALab2_CITA417CameraManager"), &Z_Registration_Info_UClass_ALab2_CITA417CameraManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALab2_CITA417CameraManager), 793355926U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_899507920(TEXT("/Script/Lab2_CITA417"),
-	Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_899507920(TEXT("/Script/Lab2_CITA417"),
+	Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h__Script_Lab2_CITA417_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

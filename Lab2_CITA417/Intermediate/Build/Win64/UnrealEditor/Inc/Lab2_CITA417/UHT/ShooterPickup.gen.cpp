@@ -435,7 +435,7 @@ AShooterPickup::~AShooterPickup() {}
 // ********** End Class AShooterPickup *************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics
+struct Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FWeaponTableRow::StaticStruct, Z_Construct_UScriptStruct_FWeaponTableRow_Statics::NewStructOps, TEXT("WeaponTableRow"), &Z_Registration_Info_UScriptStruct_FWeaponTableRow, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponTableRow), 4200423756U) },
@@ -444,9 +444,9 @@ struct Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_L
 		{ Z_Construct_UClass_AShooterPickup, AShooterPickup::StaticClass, TEXT("AShooterPickup"), &Z_Registration_Info_UClass_AShooterPickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterPickup), 3205548158U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_1444317692(TEXT("/Script/Lab2_CITA417"),
-	Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ScriptStructInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_1444317692(TEXT("/Script/Lab2_CITA417"),
+	Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Variant_Shooter_Weapons_ShooterPickup_h__Script_Lab2_CITA417_Statics::ScriptStructInfo),
 	nullptr, 0);
 // ********** End Registration *********************************************************************
 

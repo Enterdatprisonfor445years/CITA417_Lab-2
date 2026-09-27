@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "xSSgCObmcJk=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "filePath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "filePath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "filePath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "filePath": "C:\\Users\\ulysse637\\OneDrive - SUNY Morrisville\\Desktop\\CITA417\\CITA417_Lab 2\\Lab2_CITA417\\Intermediate\\Build\\BuildRulesProjects\\Lab2_CITA417ModuleRules\\Lab2_CITA417ModuleRules.csproj",
+      "libraryId": "C:\\Users\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

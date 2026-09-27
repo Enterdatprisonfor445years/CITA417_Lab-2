@@ -28,4 +28,21 @@ private:
 	// 5. Impulse: Configurable strength
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interaction", meta = (AllowPrivateAccess = "true"))
 	float ImpulseStrength = 100000.0f;
+
+	// Projectile Blueprint type to spawn
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<class AMyProjectile> ProjectileClass;
+
+	// Cooldown duration in seconds
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile", meta = (AllowPrivateAccess = "true"))
+	float FireCooldownTime = 1.0f;
+
+	// Safety check tracking state
+	bool bCanFire = true;
+
+	// Timer handle to reset the cooldown state
+	FTimerHandle CooldownTimerHandle;
+
+	// Cooldown reset function
+	void ResetFireCooldown();
 };

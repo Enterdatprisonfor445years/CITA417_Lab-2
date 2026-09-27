@@ -12,7 +12,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeInteraction_Component() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+LAB2_CITA417_API UClass* Z_Construct_UClass_AMyProjectile_NoRegister();
 LAB2_CITA417_API UClass* Z_Construct_UClass_UInteraction_Component();
 LAB2_CITA417_API UClass* Z_Construct_UClass_UInteraction_Component_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Lab2_CITA417();
@@ -123,9 +125,33 @@ struct Z_Construct_UClass_UInteraction_Component_Statics
 		{ "ToolTip", "5. Impulse: Configurable strength" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Projectile" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Projectile Blueprint type to spawn\n" },
+#endif
+		{ "ModuleRelativePath", "Interaction_Component.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Projectile Blueprint type to spawn" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireCooldownTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Projectile" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Cooldown duration in seconds\n" },
+#endif
+		{ "ModuleRelativePath", "Interaction_Component.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Cooldown duration in seconds" },
+#endif
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_TraceDistance;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ImpulseStrength;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_FireCooldownTime;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -139,9 +165,13 @@ struct Z_Construct_UClass_UInteraction_Component_Statics
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UInteraction_Component_Statics::NewProp_TraceDistance = { "TraceDistance", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInteraction_Component, TraceDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TraceDistance_MetaData), NewProp_TraceDistance_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UInteraction_Component_Statics::NewProp_ImpulseStrength = { "ImpulseStrength", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInteraction_Component, ImpulseStrength), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ImpulseStrength_MetaData), NewProp_ImpulseStrength_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UInteraction_Component_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0044000000000015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInteraction_Component, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AMyProjectile_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ProjectileClass_MetaData), NewProp_ProjectileClass_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UInteraction_Component_Statics::NewProp_FireCooldownTime = { "FireCooldownTime", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInteraction_Component, FireCooldownTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireCooldownTime_MetaData), NewProp_FireCooldownTime_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInteraction_Component_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInteraction_Component_Statics::NewProp_TraceDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInteraction_Component_Statics::NewProp_ImpulseStrength,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInteraction_Component_Statics::NewProp_ProjectileClass,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInteraction_Component_Statics::NewProp_FireCooldownTime,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInteraction_Component_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UInteraction_Component_Statics::DependentSingletons[])() = {
@@ -177,14 +207,14 @@ UInteraction_Component::~UInteraction_Component() {}
 // ********** End Class UInteraction_Component *****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics
+struct Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInteraction_Component, UInteraction_Component::StaticClass, TEXT("UInteraction_Component"), &Z_Registration_Info_UClass_UInteraction_Component, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInteraction_Component), 1236309978U) },
+		{ Z_Construct_UClass_UInteraction_Component, UInteraction_Component::StaticClass, TEXT("UInteraction_Component"), &Z_Registration_Info_UClass_UInteraction_Component, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInteraction_Component), 2986421013U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_1361340579(TEXT("/Script/Lab2_CITA417"),
-	Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_1592134840(TEXT("/Script/Lab2_CITA417"),
+	Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Interaction_Component_h__Script_Lab2_CITA417_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

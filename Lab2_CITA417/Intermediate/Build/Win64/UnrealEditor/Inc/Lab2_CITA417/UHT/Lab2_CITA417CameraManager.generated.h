@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ALab2_CITA417CameraManager ***********************************************
 LAB2_CITA417_API UClass* Z_Construct_UClass_ALab2_CITA417CameraManager_NoRegister();
 
-#define FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALab2_CITA417CameraManager(); \
 	friend struct Z_Construct_UClass_ALab2_CITA417CameraManager_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ALab2_CITA417CameraManager)
 
 
-#define FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ALab2_CITA417CameraManager(ALab2_CITA417CameraManager&&) = delete; \
 	ALab2_CITA417CameraManager(const ALab2_CITA417CameraManager&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ALab2_CITA417CameraManager();
 
 
-#define FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_13_PROLOG
-#define FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_GENERATED_BODY \
+#define FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_13_PROLOG
+#define FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ALab2_CITA417CameraManager;
 // ********** End Class ALab2_CITA417CameraManager *************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_ulysse637_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h
+#define CURRENT_FILE_ID FID_Users_ulysse637_OneDrive___SUNY_Morrisville_Desktop_CITA417_CITA417_Lab_2_Lab2_CITA417_Source_Lab2_CITA417_Lab2_CITA417CameraManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

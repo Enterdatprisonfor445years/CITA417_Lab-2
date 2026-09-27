@@ -1,13 +1,12 @@
-"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp"
-@"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Lab2_CITA417.Shared.rsp"
-/FI"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Definitions.Lab2_CITA417.h"
-/Yu"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.obj"
-/experimental:log "C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.sarif"
-/sourceDependencies "C:/Users/ulysse637/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.dep.json"
-/d2ssa-cfg-question-
+"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp"
+@"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Lab2_CITA417.Shared.rsp"
+/FI"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Definitions.Lab2_CITA417.h"
+/Yu"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/Lab2_CITA417Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.obj"
+/experimental:log "C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.sarif"
+/sourceDependencies "C:/Users/ulysse637/OneDrive - SUNY Morrisville/Desktop/CITA417/CITA417_Lab 2/Lab2_CITA417/Intermediate/Build/Win64/x64/UnrealEditor/Development/Lab2_CITA417/Module.Lab2_CITA417.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi
